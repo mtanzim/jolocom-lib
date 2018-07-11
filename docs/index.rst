@@ -16,7 +16,7 @@ We are currently working on this.
 Indices and tables
 ==================
 
-.. autoclass:: SignedCredential
+.. ts:autoclass:: ./identity/identity.Identity
 
 * :ref:`genindex`
 * :ref:`modindex`

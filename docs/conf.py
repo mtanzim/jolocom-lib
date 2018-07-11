@@ -63,6 +63,8 @@ language = None
 
 js_language = 'typescript'
 js_source_path = './ts'
+jsdoc_config_path = './tsconfig.json'
+primary_domain = 'ts'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
