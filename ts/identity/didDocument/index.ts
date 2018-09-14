@@ -24,7 +24,7 @@ export class DidDocument {
 
   @Type(() => Date)
   @Expose()
-  private created: Date
+  private created: Date 
 
   @Type(() => EcdsaLinkedDataSignature)
   @Expose()

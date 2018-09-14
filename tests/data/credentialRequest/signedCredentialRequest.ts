@@ -48,7 +48,7 @@ export const ddoAttr = {
     }
   ],
   service: [],
-  created: new Date('2018-01-24T15:42:15Z'),
+  created: '2018-01-24T15:42:15Z',
   proof: {
     type: 'EcdsaKoblitzSignature2016',
     created: '2018-08-15T13:14:10.115Z',
