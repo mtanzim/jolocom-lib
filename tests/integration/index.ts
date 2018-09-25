@@ -12,7 +12,9 @@ import { createJolocomRegistry } from '../../ts/registries/jolocomRegistry'
 import { claimsMetadata } from '../../ts/index'
 import { JSONWebToken } from './../../ts/interactionFlows/JSONWebToken';
 import { CredentialRequest } from './../../ts/interactionFlows/credentialRequest/credentialRequest'
-import { ICredentialRequestPayloadCreationAttrs } from './../../js/interactionFlows/credentialRequest/types.d'
+import { ICredentialRequestPayloadCreationAttrs } from './../../ts/interactionFlows/credentialRequest/types'
+import { ICredentialResponsePayloadCreationAttrs } from './../../ts/interactionFlows/credentialResponse/types';
+import { CredentialResponse } from './../../ts/interactionFlows/credentialResponse/credentialResponse';
 import {
   testClaim,
   testSignedCreds,
@@ -21,8 +23,6 @@ import {
   integrationTestIpfsConfig,
   ethereumConfigProviderUrl
 } from './../data/interactionFlows/integrationTest';
-import { CredentialResponse } from './../../ts/interactionFlows/credentialResponse/credentialResponse';
-import { ICredentialResponsePayloadCreationAttrs } from './../../js/interactionFlows/credentialResponse/types.d';
 
 chai.use(sinonChai)
 const expect = chai.expect
