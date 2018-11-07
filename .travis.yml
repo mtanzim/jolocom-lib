@@ -11,10 +11,10 @@ node_js:
 install: 
   - CC=gcc-4.9 CXX=g++-4.9 yarn install
 before_script:
-  - curl https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_darwin-amd64.tar.gz > go-ipfs.tar.gz
-  - tar xvfz go-ipfs.tar.gz
+  - wget https://dist.ipfs.io/go-ipfs/v0.4.13/go-ipfs_v0.4.13_linux-arm.tar.gz
+  - tar xvfz go-ipfs_v0.4.13_linux-arm.tar.gz
   - cd go-ipfs
-  - sudo bash ./install.sh
+  - sudo ./install.sh
 jobs:
   include:
     - stage: 'Tests'
