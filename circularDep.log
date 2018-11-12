@@ -1,0 +1,22 @@
+=============
+
+WARNING: You are currently running a version of TypeScript which is not officially supported by typescript-eslint-parser.
+
+You may find that it works just fine, or you may not.
+
+SUPPORTED TYPESCRIPT VERSIONS: ~3.0.1
+
+YOUR TYPESCRIPT VERSION: 3.1.6
+
+Please only submit bug reports when using the officially supported version.
+
+=============
+Processed 86 files (6.2s) (24 warnings)
+
+1) ts/credentials/signedCredential/signedCredential.ts > ts/registries/types.ts > ts/identityWallet/identityWallet.ts
+2) ts/registries/types.ts > ts/identityWallet/identityWallet.ts > ts/identity/didDocument/didDocument.ts
+3) ts/credentials/signedCredential/signedCredential.ts > ts/registries/types.ts > ts/identityWallet/identityWallet.ts > ts/identity/identity.ts
+4) ts/credentials/signedCredential/signedCredential.ts > ts/registries/types.ts > ts/identityWallet/identityWallet.ts > ts/identity/identity.ts > ts/identity/types.ts
+5) ts/credentials/signedCredential/signedCredential.ts > ts/registries/types.ts > ts/identityWallet/identityWallet.ts > ts/interactionTokens/JSONWebToken.ts > ts/interactionTokens/credentialResponse.ts
+6) ts/credentials/signedCredential/signedCredential.ts > ts/registries/types.ts > ts/identityWallet/identityWallet.ts > ts/interactionTokens/JSONWebToken.ts > ts/interactionTokens/credentialsReceive.ts
+
